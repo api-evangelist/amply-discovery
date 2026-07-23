@@ -1,7 +1,29 @@
 aid: amply-discovery
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amply-discovery.png
 name: AMPLY Discovery
-description: AMPLY Discovery is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AMPLY Discovery is a UK (Belfast, Northern Ireland) biotechnology company
+  turning the roughly 98% of the genome largely ignored by drug developers —
+  the "dark genome" — into a pipeline of first-in-class therapeutics. The
+  company pairs six AI/computational discovery engines with two wet labs in a
+  closed loop between silicon and bench to find novel antimicrobial and
+  therapeutic candidates targeting drug-resistant pathogens and complex
+  diseases. AMPLY is a Techstars portfolio company and has been backed by
+  Innovate UK, Invest NI, QUBIS and other UK/NI innovation programmes. It is
+  tracked in the API Evangelist network as a company profile; AMPLY Discovery
+  publishes no public developer API, documentation, SDKs, or machine-readable
+  API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/amply-discovery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +36,12 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Artificial Intelligence
+- Genomics
+- Pharmaceuticals
+- Therapeutics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,14 @@ maintainers:
 common:
 - type: Website
   url: https://amplydiscovery.com/
+- type: Blog
+  url: https://amplydiscovery.com/category/news/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/amply-discovery
+- type: Email
+  url: mailto:contact@amplydiscovery.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
